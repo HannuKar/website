@@ -1,0 +1,101 @@
+
+body {
+  background-color: rgb(50, 50, 50);
+	width: 100%; 
+	margin: auto;
+}
+
+a:link {
+  color: rgb(92, 92, 92);
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+a:active {
+  color: rgb(0, 0, 0);
+}
+
+#navigation {
+  
+}
+
+p {
+  font-size: 120%;
+  color: rgb(207, 204, 204);
+}
+
+#contents {
+	float: left;
+}
+
+#copyright{
+  float: bottom;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(83, 1, 1);
+  font-family: sans-serif;
+}
+
+
+
+label[type=text] {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: rgb(255, 255, 255)
+}
+
+input[type=submit]
+{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+
+  border: none;
+  float: right;
+}
+
+form[type=text]{
+  color: rgb(255, 255, 255)
+}
+
+
+div
+{
+  color: rgb(255, 255, 255)
+}
+
+input[type=text]
+{
+  background-color: rgb(182, 182, 182);
+  color: rgb(0, 0, 0);
+
+  border: none;
+  float: right;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(92, 92, 92);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to white on hover */
+li a:hover {
+  background-color: rgb(90, 90, 90);
+}
