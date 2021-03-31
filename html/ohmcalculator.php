@@ -1,7 +1,6 @@
 <?php 
-//include the header and footer for site.
+//include the navbar site.
 include("html/navbar.html"); 
-
 ?>
 
 <html>  
